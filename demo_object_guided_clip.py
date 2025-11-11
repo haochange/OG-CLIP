@@ -7,7 +7,7 @@ from PIL import Image
 import matplotlib.pyplot as plt
 import cv2
 
-from object_guided_clip import create_object_guided_clip, ObjectGuidedCLIPTrainer
+from object_guided_clip_final import create_object_guided_clip, preprocess_image, ObjectGuidedCLIP, ObjectGuidedCLIPTrainer
 
 
 def create_demo_image_with_objects():
